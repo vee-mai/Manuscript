@@ -11,16 +11,16 @@ h1{ */
 .H{
 	font-family:"Montserrat", sans-serif;
 	font-size:100px;
-	font-weight:bold;
+	font-weight:bolder;
 	margin-top: 150px;
-	margin-left:-50px;
+	margin-left:50px;
 }
 .O{
 	font-family:"Montserrat", sans-serif;
 	font-size:90px;
 	font-weight:bolder;
-	margin-top: 35px;
-	margin-left:-5px;
+	margin-top: 45px;
+	margin-left:80px;
 	transform: rotate3d(20, 10, -2, -10deg);
 }
 
@@ -28,51 +28,53 @@ h1{ */
 	font-family:"Montserrat", sans-serif;
 	font-size:90px;
 	font-weight:bolder;
-	margin-top: 20px;
-	margin-left:02px;
+	margin-top: 45px;
+	margin-left:90px;
 	transform: rotate3d(0, 4,-2, -10deg);
 }
 
 .K{
 	font-family:"Montserrat", sans-serif;
-	font-size:80px;
-	font-weight:bold;
-	margin-top:-45px;
-	margin-left:43px;
+	font-size:90px;
+	font-weight:bolder;
+	margin-top:-85px;
+	margin-left:100px;
 	transform: rotate3d(2,4,-2, 20deg);
 }
 
 .E{
 	font-family:"Montserrat", sans-serif;
-	font-size:80px;
-	font-weight:bold;
-	margin-top:53px;
-	margin-left:105px;
+	font-size:90px;
+	font-weight:bolder;
+	margin-top:90px;
+	margin-left:160px;
 	transform: rotate3d(1-,4,-2, 20deg);
 }
 
 .D{
 	font-family:"Montserrat", sans-serif;
-	font-size:80px;
-	font-weight:bold;
-	margin-top:-20px;
-	margin-left:130px;
+	font-size:90px;
+	font-weight:bolder;
+	margin-top:-35px;
+	margin-left:175px;
 	transform: rotate3d(2,4,-2, 20deg);
 }
 
 #title{
 	font-family:"Montserrat", sans-serif;
 	font-size:80px;
-	font-weight:bold;
-	margin-top:70px;
-	margin-left:280px;
+	font-weight:bolder;
+	letter-spacing: 0.7rem;
+	/* margin-left:290px; */
+	padding-left:500px;
+	margin-top:100px;
 	margin-bottom:100px;
 }
 #authorname{
-	margin-left:-50px;
+	margin-left:auto;
 }
 #date{
-	margin-left:-50px;
+	margin-left:auto;
 	margin-bottom:50px;
 }
 
@@ -80,10 +82,9 @@ body{
 	font-family: "Inter", sans-serif;
 	font-size: 18px;
 	font-weight: 260;
+	padding-left: 100px;
 	text-indent:40px;
 	text-align: start;
-	margin-left: 100px;
-	margin-right: 500px;
 	line-height:30px;
 	background-color:white;
 
@@ -159,6 +160,32 @@ hr{
 	border-radius: 1rem;
 }
 
+article{
+	max-width:700px;
+}
+
+#readingresponse{
+	margin-left: auto;
+	margin-right:50px;
+}
+
+/* #readingresponse h2{ */
+	font-family:"Montserrat", sans-serif;
+	font-weight:bold;
+	color: 000000;
+	font-size:25px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-left:auto;
+	border-bottom: 4px solid #000000;
+
+h2 {
+	font-family:"Montserrat", sans-serif;
+	font-weight:bold;
+	border-bottom: 4px solid #000000;
+}
+}
+
 #readingresponse{
 	font-family:"Montserrat", sans-serif;
 	font-weight:bold;
@@ -166,16 +193,25 @@ hr{
 	font-size:25px;
 	margin-top: 100px;
 	margin-bottom: 50px;
-	margin-left:-50px;
+	margin-left:auto;
+	padding-left:400px;
 }
 
+.headingresponsetitle{
+	border-bottom: 4px solid #000000;
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+}
+
+
 .R1{
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-top:40px; 
+	margin-bottom:40px;
 }
 
 .R3{
-	margin-top:20px;
+	margin-top:40px;
 	margin-bottom:20px;
 }
 
@@ -191,16 +227,12 @@ hr{
 
 Footer{
 	font-size: 1rem;
-	text-align:center;
+	text-align:left;
 	margin-top:50px;
 	margin-bottom:50px;
-	margin-left: 250px;
 }
 
 .linktoarticle{
-	text-align: left;
 	font-weight:bold;
 	color:blue
-	
-
 }
