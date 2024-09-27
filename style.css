@@ -143,7 +143,6 @@ blockquote{
 	font-style: italic;
 	color:rgb(14, 10, 10);
 	line-height: 40px;
-	margin-right:100px;
 	margin-top:60px;
 	margin-bottom:20px;
 }
@@ -155,12 +154,6 @@ blockquote{
 	color:rgb(14, 10, 10);
 	line-height: 40px;
 	margin-bottom:50px;
-
-}
-
-/* .a[href[*=https://2x4.org/ideas/2015/hooked-on-a-feeling/]{ */
-	text-decoration-line:underline;
-	text-decoration-color: blue;
 }
 
 hr{
@@ -260,5 +253,6 @@ Footer{
 	border-top:20px;
 	margin-top:10px;
 	font-weight:bold;
+	text-decoration-line:underline;
 	color:blue
 }
